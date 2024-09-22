@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           <div className='hamline'></div>
           <div className='hamline'></div>
         </div>
-        <li ><Link href={'/'} className='na'>Hone</Link></li>
+        <li ><Link href={'/'} className='na'>Home</Link></li>
         <li ><Link href={'/new'} className='na'>New</Link></li>
         <li ><Link href={'/search'} className='na'> Search</Link></li>
 
