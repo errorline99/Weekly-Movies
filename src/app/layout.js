@@ -8,8 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8699552971884250"
-        crossorigin="anonymous"></script>
+       <meta name="google-adsense-account" content="ca-pub-8699552971884250">
       </head>
       <body className="yep">
       <nav>
@@ -52,4 +51,5 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
 
