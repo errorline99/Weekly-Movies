@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       <meta name="google-adsense-account" content="ca-pub-8699552971884250">
+
       </head>
       <body className="yep">
       <nav>
@@ -51,5 +51,6 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
 
 
