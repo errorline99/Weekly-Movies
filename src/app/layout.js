@@ -1,4 +1,4 @@
- import Link from 'next/link';
+import Link from 'next/link';
  import './Gone.css'
  export const runtime = 'edge';
 
@@ -7,6 +7,9 @@
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+
+      </head>
       <body className="yep">
       <nav>
        {/* <div className="navbar">
@@ -27,7 +30,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
       </div>  */}
-   
+
 
       <div className='navcon'>
 
@@ -36,11 +39,12 @@ export default function RootLayout({ children }) {
           <div className='hamline'></div>
           <div className='hamline'></div>
         </div>
+        <li ><Link href={'/'} className='na'>Hone</Link></li>
         <li ><Link href={'/'} className='na'>Home</Link></li>
         <li ><Link href={'/new'} className='na'>New</Link></li>
         <li ><Link href={'/search'} className='na'> Search</Link></li>
 
-      
+
       </div>
     </nav>
         <main>{children}</main>
@@ -48,6 +52,3 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
-
-
-
